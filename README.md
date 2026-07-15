@@ -11,10 +11,24 @@ This project simulates a real-world Security Operations Center (SOC) environment
 - Develop professional incident reports and runbooks
 
 ## Lab Architecture
-- Kali Linux (Attacker)
-- Windows 10 (Target)
-- SIEM (Splunk)
-- Sysmon for endpoint logging
+Phase 1
+Infrastructure Setup
+        ↓
+Phase 2
+Endpoint Logging
+        ↓
+Phase 3
+Attack Simulation
+        ↓
+Phase 4
+Threat Detection & Investigation
+        ↓
+Phase 5
+Detection Engineering & Incident Response
+        ↓
+Phase 6
+Reporting & Documentation
+
 
 ## Attack Scenarios
 - Brute Force Login Attack
