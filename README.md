@@ -1,8 +1,5 @@
 # 🛡️ Home Security Operations Center (SOC) Lab
-
-A hands-on cybersecurity project simulating an enterprise Security Operations Center using Wazuh, Sysmon, Windows 11, and Ubuntu Server.
-
-This project demonstrates endpoint monitoring, log collection, threat detection, alert triage, incident response, and SIEM engineering.
+A hands-on enterprise-style Security Operations Center built using Wazuh, Sysmon, Ubuntu Server, and Windows 11 to simulate real-world threat detection, log monitoring, incident response, and SIEM operations.
 
 **Project Status:** 🚧 In Progress
 
@@ -36,11 +33,35 @@ The environment is now ready for attack simulation and log analysis.
 - Incident response investigation
   
 ## Objectives
-- Build a functional SOC lab using SIEM and endpoint monitoring tools
-- Simulate real-world cyber attacks
-- Perform alert triage and log correlation
-- Conduct incident investigations
-- Develop professional incident reports and runbooks
+- Build an enterprise SOC from scratch
+- Deploy Wazuh SIEM
+- Configure Windows endpoint monitoring
+- Collect Sysmon telemetry
+- Simulate cyber attacks
+- Investigate alerts
+- Create incident reports
+- Improve detection rules
+- Build a recruiter-ready cybersecurity portfolio
+
+# Architecture
+
+```
+                 Internet
+                     │
+             ┌─────────────────┐
+             │ Ubuntu Server    │
+             │ Wazuh Manager    │
+             │ SIEM             │
+             └─────────────────┘
+                     ▲
+                     │ Agent Communication
+                     │
+             ┌─────────────────┐
+             │ Windows 11 VM   │
+             │ Sysmon          │
+             │ Wazuh Agent     │
+             └─────────────────┘
+```
 
 ## Attack Scenarios
 - Brute Force Login Attack
@@ -70,6 +91,17 @@ The environment is now ready for attack simulation and log analysis.
 - Endpoint Monitoring
 - IOC Analysis
 - MITRE ATT&CK Mapping
+
+# Future Work
+
+- Brute Force Detection
+- PowerShell Attack Detection
+- Mimikatz Detection
+- RDP Attack Detection
+- Malware Detection
+- IOC Hunting
+- Custom Detection Rules
+- Incident Response Playbooks
 
 ## Project Structure
 See folders for setup, attack simulations, detection rules, and incident reports.
