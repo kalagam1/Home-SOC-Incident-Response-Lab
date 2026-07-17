@@ -1,34 +1,65 @@
-# Home SOC & Incident Response Lab
+# 🛡️ Home Security Operations Center (SOC) Lab
 
-## Overview
-This project simulates a real-world Security Operations Center (SOC) environment to detect, analyze, and respond to cybersecurity incidents. The lab replicates enterprise security workflows including log collection, alert triage, incident investigation, and documentation.
+A hands-on cybersecurity project simulating an enterprise Security Operations Center using Wazuh, Sysmon, Windows 11, and Ubuntu Server.
 
+This project demonstrates endpoint monitoring, log collection, threat detection, alert triage, incident response, and SIEM engineering.
+
+**Project Status:** 🚧 In Progress
+
+Current Phase: **Phase 3 – Endpoint Integration**
+
+## Project Progress
+
+- ✅ Phase 1 – Build Wazuh Server
+- ✅ Phase 2 – Deploy Windows Endpoint
+- 🟡 Phase 3 – Agent Enrollment (In Progress)
+- ⬜ Phase 4 – Threat Detection
+- ⬜ Phase 5 – Attack Simulation
+- ⬜ Phase 6 – Incident Response
+- ⬜ Phase 7 – Detection Engineering
+
+## Lab Environment
+
+Ubuntu Server
+- Wazuh Manager 4.14.6
+
+Windows Endpoint
+- Windows 11 Enterprise Evaluation
+- Sysmon Installed
+- Wazuh Agent Installed
+
+Virtualization
+- Oracle VirtualBox
+
+Network
+- NAT Network
+
+## Completed Tasks
+
+✔ Installed Ubuntu Server
+
+✔ Installed Wazuh Manager
+
+✔ Installed Windows 11 Endpoint
+
+✔ Configured networking between VMs
+
+✔ Verified ICMP communication
+
+✔ Installed Sysmon
+
+✔ Installed Wazuh Agent
+
+✔ Registered endpoint with Wazuh Manager
+
+🟡 Currently troubleshooting final agent authentication
+  
 ## Objectives
 - Build a functional SOC lab using SIEM and endpoint monitoring tools
 - Simulate real-world cyber attacks
 - Perform alert triage and log correlation
 - Conduct incident investigations
 - Develop professional incident reports and runbooks
-
-## Lab Architecture
-Phase 1
-Infrastructure Setup
-        ↓
-Phase 2
-Endpoint Logging
-        ↓
-Phase 3
-Attack Simulation
-        ↓
-Phase 4
-Threat Detection & Investigation
-        ↓
-Phase 5
-Detection Engineering & Incident Response
-        ↓
-Phase 6
-Reporting & Documentation
-
 
 ## Attack Scenarios
 - Brute Force Login Attack
@@ -45,12 +76,19 @@ Reporting & Documentation
 - Structured documentation (runbooks and reports)
 
 ## Skills Demonstrated
-- SIEM (Splunk)
-- Log Analysis & Correlation
+- SIEM Engineering
+- Security Monitoring
+- Log Analysis
+- Alert Triage
 - Incident Response
-- Threat Detection
-- Malware Analysis (basic)
-- Security Documentation
+- Threat Hunting
+- Detection Engineering
+- Windows Security
+- Linux Administration
+- Network Troubleshooting
+- Endpoint Monitoring
+- IOC Analysis
+- MITRE ATT&CK Mapping
 
 ## Project Structure
 See folders for setup, attack simulations, detection rules, and incident reports.
