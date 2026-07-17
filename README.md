@@ -6,53 +6,34 @@ This project demonstrates endpoint monitoring, log collection, threat detection,
 
 **Project Status:** 🚧 In Progress
 
-Current Phase: **Phase 3 – Endpoint Integration**
+## Current Progress
 
-## Project Progress
+### ✅ Phase 1 - Wazuh Server Setup
+- Installed Ubuntu Server
+- Installed Wazuh 4.14
+- Verified dashboard access
+- Configured static IP
 
-- ✅ Phase 1 – Build Wazuh Server
-- ✅ Phase 2 – Deploy Windows Endpoint
-- 🟡 Phase 3 – Agent Enrollment (In Progress)
-- ⬜ Phase 4 – Threat Detection
-- ⬜ Phase 5 – Attack Simulation
-- ⬜ Phase 6 – Incident Response
-- ⬜ Phase 7 – Detection Engineering
+### ✅ Phase 2 - Windows Endpoint
+- Installed Windows 11 Enterprise Evaluation
+- Renamed endpoint to Win11-endpoint
+- Installed Sysmon
+- Installed Wazuh Agent
+- Registered agent with Wazuh Server
+- Verified endpoint connectivity
 
-## Lab Environment
+### 🔄 Current Status
 
-Ubuntu Server
-- Wazuh Manager 4.14.6
+The Windows endpoint successfully communicates with the Wazuh Manager.
+The environment is now ready for attack simulation and log analysis.
 
-Windows Endpoint
-- Windows 11 Enterprise Evaluation
-- Sysmon Installed
-- Wazuh Agent Installed
+### Upcoming
 
-Virtualization
-- Oracle VirtualBox
-
-Network
-- NAT Network
-
-## Completed Tasks
-
-✔ Installed Ubuntu Server
-
-✔ Installed Wazuh Manager
-
-✔ Installed Windows 11 Endpoint
-
-✔ Configured networking between VMs
-
-✔ Verified ICMP communication
-
-✔ Installed Sysmon
-
-✔ Installed Wazuh Agent
-
-✔ Registered endpoint with Wazuh Manager
-
-🟡 Currently troubleshooting final agent authentication
+- Brute-force attack simulation
+- PowerShell attack detection
+- MITRE ATT&CK mapping
+- Custom Wazuh detection rules
+- Incident response investigation
   
 ## Objectives
 - Build a functional SOC lab using SIEM and endpoint monitoring tools
